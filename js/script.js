@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   // --- Global Logo Logic ---
   const LOGO_CONFIG = {
-    header: 'assets/images/Logo.png',
-    footer: 'assets/images/Logo.png',
+    header: 'assets/images/logo.png',
+    footer: 'assets/images/logo.png',
     favicon: 'assets/images/logo_header_transparent.png'
   };
 
