@@ -1,112 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
-  <title>Aerominds | Drone Services & Training</title>
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/pages.css">
-  <script src="js/script.js" defer></script>
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <a href="index.html" class="brand">
-      <img src="assets/images/Logo.png" alt="Aerominds Logo">
-    </a>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <div class="dropdown">
-        <a href="services.html">Services ▾</a>
-        <div class="dropdown-menu">
-          <a href="training.html">Drone Training & Certification</a>
-          <a href="spraying.html">Precision Drone Spraying</a>
-          <a href="repair.html">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
-          <a href="mapping.html">Survey & Mapping</a>
-          <a href="sales.html">Sales & Consultation</a>
-          <a href="cable.html">Cable Deployment</a>
-        </div>
-      </div>
-      <a href="legal.html">AeroDroneMitra</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <div class="nav-actions">
-      <button class="menu-toggle">
-        <span></span><span></span><span></span>
-      </button>
-      <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-content">
-      <div class="hero-text" id="hero-text-container">
-        <span class="hero-badge hero-badge-assembly stagger-1">AERO UAV SYSTEMS</span>
-        <h1 id="hero-title" class="hero-title-assembly stagger-2">Remote Pilot Training (RPTO)</h1>
-        <p id="hero-subtext" class="hero-subtext-assembly stagger-3">DGCA-approved drone pilot training programs with certification in collaboration with SynchroServe RPTO</p>
-        <div class="hero-buttons hero-buttons-assembly stagger-4">
-          <a href="training.html" class="btn btn-primary shimmer-sweep" id="hero-btn-primary">Get Started</a>
-          <a href="services.html" class="btn btn-outline-white shimmer-sweep" id="hero-btn-secondary" style="border-color: var(--primary-dark-green); color: var(--primary-dark-green);">Learn More</a>
-        </div>
-      </div>
-      <div class="hero-slider-container slide-snap-right">
-        <div class="hero-slider" id="hero-slider-bgs">
-          <!-- Scene 1: Training -->
-          <div class="slide scene-container active-slide">
-            <div class="scene-bg" style="background-image: url('assets/images/hero-training.png');"></div>
-          </div>
-          <!-- Scene 2: Spraying -->
-          <div class="slide scene-container">
-            <div class="scene-bg" style="background-image: url('assets/images/hero-spraying.png');"></div>
-          </div>
-          <!-- Scene 3: Repair -->
-          <div class="slide scene-container">
-            <div class="scene-bg" style="background-image: url('assets/images/hero-repair.png');"></div>
-          </div>
-          <!-- Scene 4: Mapping -->
-          <div class="slide scene-container">
-            <div class="scene-bg" style="background-image: url('assets/images/hero-mapping.png');"></div>
-          </div>
-          <!-- Scene 5: Sales -->
-          <div class="slide scene-container">
-            <div class="scene-bg" style="background-image: url('assets/images/hero-sales.png');"></div>
-          </div>
-          <!-- Scene 6: Deployment -->
-          <div class="slide scene-container">
-            <div class="scene-bg" style="background-image: url('assets/images/hero-deployment.png');"></div>
-          </div>
-        </div>
-        <div class="slider-nav" id="hero-slider-nav">
-          <div class="slider-dot active" data-index="0"></div>
-          <div class="slider-dot" data-index="1"></div>
-          <div class="slider-dot" data-index="2"></div>
-          <div class="slider-dot" data-index="3"></div>
-          <div class="slider-dot" data-index="4"></div>
-          <div class="slider-dot" data-index="5"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ======================================================= -->
   <!-- SECTION 1: OUR CORE EXPERTISE (Bento Grid) -->
   <!-- ======================================================= -->
-  <section class="section-alt" style="padding-top: 0;">
-    <!-- Divider Hero -> Section 1: Layered Aerodynamic Wave -->
-    <div class="divider-container">
-      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-        <path fill="var(--soft-sage-green)" opacity="0.4" d="M0,0 L1440,0 L1440,100 C1080,50 720,110 0,60 Z"></path>
-        <path fill="var(--warm-ivory)" d="M0,0 L1440,0 L1440,80 C1080,40 720,100 0,50 Z"></path>
-      </svg>
-    </div>
-    <div class="container" style="position: relative; padding-top: 3rem; padding-bottom: 6rem; z-index: 10;">
+  <section class="section-alt">
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
       <div class="text-center mb-5 fade-in">
         <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
           <defs>
@@ -122,9 +18,7 @@
         <p class="subtitle">Delivering high-performance drone solutions across agricultural and industrial sectors.</p>
       </div>
 
-
-
-      <div class="bento-grid organic-growth">
+      <div class="bento-grid card-rise-3d">
         <!-- Bento Card 1: Training & Certification (Large, col-2) -->
         <div class="bento-card col-2">
           <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
@@ -418,7 +312,7 @@
             <div class="timeline-milestone-content">
               <span style="font-weight: 800; color: var(--primary-dark-green); font-size: 0.8rem; text-transform: uppercase;">Step 04</span>
               <h4 style="margin-top: 0.4rem; color: var(--primary-dark-green); font-weight: 800;">DGCA License Handover</h4>
-              <p style="font-size: 0.9rem; color: var(--text-dark); margin-top: 0.5rem; line-height: 1.5;">Successfully clear the practical check-ride and receive your official Remote Pilot Certificate (RPC) facilitated through partner SynchroServe RPTO.</p>
+              <p style="font-size: 0.9rem; color: var(--text-dark); margin-top: 0.5rem; line-height: 1.5;">Successfully clear the practical check-ride and receive your official Remote Pilot Certificate (RPC) facilitated throughpartner SynchroServe RPTO.</p>
             </div>
           </div>
         </div>
@@ -507,7 +401,7 @@
     <!-- Divider 5 -> 6: Organic Wave Divider -->
     <div class="divider-container">
       <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-        <path fill="#D6D1A7" d="M0,20 C480,90 960,10 1440,60 L1440,0 L0,0 Z"></path>
+        <path fill="#D6D1A7" d="M0,20 C480,90 960,10 1440,60 L1440,120 L0,120 Z"></path>
       </svg>
     </div>
     <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
@@ -526,7 +420,7 @@
         <p class="subtitle">Enhance crop yields, reduce chemical wastage, and save time with our advanced drone spraying fleet.</p>
       </div>
 
-      <div class="organic-spraying-grid mist-reveal">
+      <div class="organic-spraying-grid organic-growth">
         <!-- Card 1 -->
         <div class="organic-spray-card">
           <div>
@@ -634,7 +528,7 @@
     <!-- Divider 7 -> 8: Abstract Fluid Divider -->
     <div class="divider-container">
       <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-        <path fill="#D6D1A7" d="M0,50 C120,80 240,20 360,40 C480,60 600,10 720,50 C840,90 960,30 1080,70 C1200,110 1320,40 1440,60 L1440,0 L0,0 Z"></path>
+        <path fill="#D6D1A7" d="M0,50 C120,80 240,20 360,40 C480,60 600,10 720,50 C840,90 960,30 1080,70 C1200,110 1320,40 1440,60 L1440,120 L0,120 Z"></path>
       </svg>
     </div>
     <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
@@ -951,7 +845,7 @@
             </div>
             <!-- central sun -->
             <div class="orbit-sun-center">
-              <img src="assets/images/Logo.png" alt="Aerominds Hub">
+              <img src="assets/images/Logo_1.png" alt="Aerominds Hub">
             </div>
           </div>
         </div>
@@ -1029,7 +923,7 @@
     <!-- Divider 13 -> 14: Premium Liquid Divider -->
     <div class="divider-container">
       <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-        <path fill="#D6D1A7" d="M0,40 Q360,110 720,60 T1440,70 L1440,0 L0,0 Z"></path>
+        <path fill="#D6D1A7" d="M0,40 Q360,110 720,60 T1440,70 L1440,120 L0,120 Z"></path>
       </svg>
     </div>
     <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
@@ -1104,49 +998,3 @@
       </div>
     </div>
   </section>
-
-  <!-- Footer -->
-  <footer style="padding-top: 0;">
-    <!-- Liquid Organic Divider E -->
-    <div class="divider-container">
-      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
-      </svg>
-    </div>
-    <div class="container" style="padding-top: 3rem;">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and repair services.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <a href="about.html">About Us</a>
-          <a href="services.html">All Services</a>
-          <a href="contact.html">Contact Support</a>
-          <a href="legal.html">AeroDroneMitra</a>
-        </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <a href="training.html">Drone Training</a>
-          <a href="spraying.html">Agri Spraying</a>
-          <a href="repair.html">Repairs & AMC</a>
-          <a href="mapping.html">Survey & Mapping</a>
-          <a href="sales.html">Sales & Consultation</a>
-          <a href="cable.html">Cable Deployment</a>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <p>📧 info@aerominds.in</p>
-          <p>📞 +91 70757 05139</p>
-          <p>📍 2nd Floor, Ambati Mansion, 4th Lane, Brodipet, Guntur, Andhra Pradesh 522002</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Aerominds. All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
-</body>
-
-</html>

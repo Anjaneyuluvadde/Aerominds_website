@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
   <title>Precision Spraying | Aerominds</title>
   <link rel="stylesheet" href="css/global.css">
@@ -14,24 +13,21 @@
 </head>
 
 <body>
-  <!-- Specific background overlay for Spraying page -->
-  <img src="assets/images/hero-spraying.png" alt="Agriculture Drone Spraying" class="global-bg">
-  <div class="global-overlay spraying-overlay"></div>
-
   <!-- Navbar -->
-  <nav class="navbar"><a href="index.html" class="brand">
-      <img src="assets/images/Logo_1.png" alt="Aerominds Logo">
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Logo.png" alt="Aerominds Logo">
     </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <div class="dropdown">
-        <a href="services.html" style="color: var(--green-accent);">Services ▾</a>
+        <a href="services.html">Services ▾</a>
         <div class="dropdown-menu">
           <a href="training.html">Drone Training & Certification</a>
-          <a href="spraying.html" style="color: var(--blue-accent);">Precision Drone Spraying</a>
+          <a href="spraying.html" style="color: var(--soft-sage-green);">Precision Drone Spraying</a>
           <a href="repair.html">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid var(--border-grey); margin: 0.5rem 0;">
+          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
           <a href="mapping.html">Survey & Mapping</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
@@ -41,230 +37,263 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-actions">
-      <button class="menu-toggle"><span></span><span></span><span></span></button>
+      <button class="menu-toggle">
+        <span></span><span></span><span></span>
+      </button>
       <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-      <style>
-        .hidden-mobile-btn {
-          display: inline-block;
-        }
-
-        @media(max-width: 992px) {
-          .hidden-mobile-btn {
-            display: none;
-          }
-        }
-      </style>
     </div>
   </nav>
 
   <!-- Page Header -->
   <header class="page-header fade-in">
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="sprayingHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingHeaderGrad)">
-        Precision Agri Spraying
-      </text>
-    </svg>
-    <p>Enhance crop yields, reduce chemical wastage, and save time with our advanced drone spraying fleet.</p>
-  </header>
-
-  <!-- Service Cards Section -->
-  <section class="container mb-5 fade-in">
-    <div class="service-cards-grid scale-in">
-      <div class="glass-card service-hub-card fade-in" onclick="window.location.href='legal.html'"
-        style="cursor: pointer;">
-        <img src="assets/images/spraying_indian.png" alt="Crop Spraying" class="card-img" loading="lazy"
-          decoding="async">
-        <div class="card-content">
-          <h3>Crop Spraying</h3>
-          <p>Automated drone spraying for uniform coverage, reduced chemical usage, and 50x faster execution than manual
-            methods.</p>
-          <a href="legal.html" class="btn btn-primary">Book Now</a>
-        </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in" onclick="window.location.href='legal.html'"
-        style="cursor: pointer;">
-        <img src="assets/images/monitoring_indian.png" alt="Monitoring" class="card-img" loading="lazy"
-          decoding="async">
-        <div class="card-content">
-          <h3>Crop Monitoring</h3>
-          <p>Real-time crop health monitoring using multispectral sensors to identify pest infestations and nutrient
-            deficiencies early.</p>
-          <a href="legal.html" class="btn btn-primary">Book Now</a>
-        </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in" onclick="window.location.href='legal.html'"
-        style="cursor: pointer;">
-        <img src="assets/images/agri_solutions_indian.png" alt="Precision Agriculture Solutions" class="card-img"
-          loading="lazy" decoding="async">
-        <div class="card-content">
-          <h3>Precision Agri Solutions</h3>
-          <p>End-to-end data-driven agriculture solutions to optimize farm productivity and ensure sustainable farming
-            practices.</p>
-          <a href="legal.html" class="btn btn-primary">Book Now</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container mb-4 fade-in">
-    <!-- Service & Partnership Section -->
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="sprayingServicesGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingServicesGrad)">
-        Our Spraying Services
-      </text>
-    </svg>
-    <div class="glass-card fade-in mb-5" style="padding: 3rem;">
-      <p class="subtitle mb-2"></p>
-
-      <div class="mt-3 mb-3">
-        <ul style="list-style: none; padding-left: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Covers large areas quickly
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Reduces labor dependency
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Ensures uniform spraying
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Minimizes chemical exposure
-          </li>
-        </ul>
-      </div>
-
-      <div
-        style="background: rgba(129, 184, 64, 0.1); border-left: 5px solid var(--green-accent); padding: 1.5rem; border-radius: 8px; margin-top: 2rem;">
-        <p style="color: var(--text-dark); line-height: 1.6;">We execute large-scale spraying operations in association
-          with <strong>Coromandel International (Gromor)</strong>, ensuring consistent work opportunities and
-          field-level reliability.</p>
-      </div>
-
-      <div class="text-center mt-4">
-        <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem;">Inquire for Service</a>
-      </div>
-    </div>
-
-    <div class="glass-card mt-5 mb-4">
-      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:1000px; display:block; margin:0 auto;">
-        <defs>
-          <linearGradient id="sprayingWhyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
-          </linearGradient>
-        </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="white" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingWhyGrad)">
-          Why Upgrade to Drone Spraying?
-        </text>
-      </svg>
-      <div class="stats-grid">
-        <div class="stat-item">
-          <h2>90%</h2>
-          <p>Water Saved</p>
-        </div>
-        <div class="stat-item">
-          <h2>30%</h2>
-          <p>Chemical Reduced</p>
-        </div>
-        <div class="stat-item">
-          <h2>50x</h2>
-          <p>Faster than Manual</p>
-        </div>
-        <div class="stat-item">
-          <h2>100%</h2>
-          <p>Crop Coverage Ensure</p>
-        </div>
-      </div>
-    </div>
-
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="sprayingSolutionsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingSolutionsGrad)">
-        Crop Solutions
-      </text>
-    </svg>
-    <div class="spraying-grid scale-in">
-      <div class="glass-card fade-in" onclick="window.location.href='legal.html'" style="cursor: pointer;">
-        <h3 class="mb-2">Pesticide Application</h3>
-        <p>Targeted spraying mechanism that ensures uniform droplet size, coating crops efficiently from top to bottom
-          while reducing drift and exposure.</p>
-        <ul class="mt-2" style="line-height: 2;">
-          <li>✅ RTK pinpoint accuracy</li>
-          <li>✅ Night-spraying capabilities</li>
-          <li>✅ Automated swarm flights</li>
-        </ul>
-      </div>
-
-      <div class="glass-card fade-in" onclick="window.location.href='legal.html'" style="cursor: pointer;">
-        <h3 class="mb-2">Fertilizer & Seed Spreading</h3>
-        <p>Specially calibrated payload drops for granular or liquid fertilizer, seed broadcasting, and micronutrient
-          distribution.</p>
-        <ul class="mt-2" style="line-height: 2;">
-          <li>✅ Variable rate application</li>
-          <li>✅ Large payload lifting (20L - 40L)</li>
-          <li>✅ High-density farming support</li>
-        </ul>
-      </div>
-
-      <div class="glass-card fade-in" onclick="window.location.href='legal.html'" style="cursor: pointer;">
-        <h3 class="mb-2">Multispectral Crop Analysis</h3>
-        <p>Advanced imaging techniques used to detect early signs of plant stress, optimizing resource distribution and
-          preventing yield loss.</p>
-        <ul class="mt-2" style="line-height: 2;">
-          <li>✅ NDRE & NDVI indexing</li>
-          <li>✅ Early disease detection</li>
-          <li>✅ Data-driven yield forecasting</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA Section -->
-  <section class="section-padding container">
-    <div class="glass-card text-center fade-in"
-      style="background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(123, 179, 66, 0.1)); border: 1px solid var(--green-accent);">
+    <div class="container">
       <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
         <defs>
-          <linearGradient id="sprayingCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
+          <linearGradient id="sprayingHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
           </linearGradient>
         </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingCtaGrad)">
-          Ready to Take Flight?
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingHeaderGrad)">
+          Precision Agri Spraying
         </text>
       </svg>
-      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Looking for drone services or planning to
-        start your drone business? Contact us today for professional solutions.</p>
-      <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Contact Us Today</a>
+      <p>Enhance crop yields, reduce chemical wastage, and save time with our advanced drone spraying fleet.</p>
+    </div>
+  </header>
+
+  <!-- Service Cards Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider A -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,40 C1320,70 1200,90 1080,50 C960,10 840,120 720,70 C600,20 480,100 360,60 C240,20 120,80 0,40 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="service-cards-grid">
+        <!-- Service 1 -->
+        <div class="glass-card service-hub-card flip-card-left stagger-1" onclick="window.location.href='legal.html'" style="cursor: pointer;">
+          <img src="assets/images/spraying_indian.png" alt="Crop Spraying" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Crop Spraying</h3>
+            <p>Automated drone spraying for uniform coverage, reduced chemical usage, and 50x faster execution than manual methods.</p>
+            <a href="legal.html" class="btn btn-primary shimmer-sweep">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="glass-card service-hub-card flip-card-right stagger-2" onclick="window.location.href='legal.html'" style="cursor: pointer;">
+          <img src="assets/images/monitoring_indian.png" alt="Monitoring" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Crop Monitoring</h3>
+            <p>Real-time crop health monitoring using multispectral sensors to identify pest infestations and nutrient deficiencies early.</p>
+            <a href="legal.html" class="btn btn-primary shimmer-sweep">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="glass-card service-hub-card flip-card-left stagger-3" onclick="window.location.href='legal.html'" style="cursor: pointer;">
+          <img src="assets/images/agri_solutions_indian.png" alt="Precision Agriculture Solutions" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Precision Agri Solutions</h3>
+            <p>End-to-end data-driven agriculture solutions to optimize farm productivity and ensure sustainable farming practices.</p>
+            <a href="legal.html" class="btn btn-primary shimmer-sweep">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spraying Services & Partnerships (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider B -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,70 C1300,30 1150,110 1000,80 C850,50 700,120 550,60 C400,0 250,90 0,50 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="text-center mb-5 fade-in">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="sprayingServicesGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingServicesGrad)">
+            Our Spraying Services
+          </text>
+        </svg>
+      </div>
+
+      <div class="glass-card card-expand-glow" style="padding: 3rem; background: var(--glass-bg);">
+        <ul style="list-style: none; padding-left: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+          <li class="scale-pop stagger-1" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Covers large areas quickly
+          </li>
+          <li class="scale-pop stagger-2" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Reduces labor dependency
+          </li>
+          <li class="scale-pop stagger-3" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Ensures uniform spraying
+          </li>
+          <li class="scale-pop stagger-4" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Minimizes chemical exposure
+          </li>
+        </ul>
+
+        <div class="slide-snap-left stagger-5" style="background: rgba(13, 83, 14, 0.08); border-left: 5px solid var(--primary-dark-green); padding: 1.8rem; border-radius: 8px;">
+          <p style="color: var(--text-dark); line-height: 1.7; font-size: 1.05rem; margin-bottom: 0;">We execute large-scale spraying operations in association with <strong>Coromandel International (Gromor)</strong>, ensuring consistent work opportunities and field-level reliability.</p>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem;">Inquire for Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Upgrade (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider C -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,50 C1280,100 1120,30 960,60 C800,90 640,10 480,80 C320,120 160,40 0,70 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card pivot-in">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto 2.5rem;">
+          <defs>
+            <linearGradient id="sprayingWhyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingWhyGrad)">
+            Why Upgrade to Drone Spraying?
+          </text>
+        </svg>
+        <div class="stats-grid">
+          <div class="stat-item scale-pop stagger-1">
+            <h2>90%</h2>
+            <p>Water Saved</p>
+          </div>
+          <div class="stat-item scale-pop stagger-2">
+            <h2>30%</h2>
+            <p>Chemical Reduced</p>
+          </div>
+          <div class="stat-item scale-pop stagger-3">
+            <h2>50x</h2>
+            <p>Faster than Manual</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Crop Solutions (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider D -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,80 C1320,40 1200,60 1080,90 C960,120 840,40 720,50 C600,60 480,100 360,40 C240,-10 120,80 0,60 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="text-center mb-5">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="sprayingSolutionsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingSolutionsGrad)">
+            Crop Solutions
+          </text>
+        </svg>
+      </div>
+
+      <div class="spraying-grid">
+        <!-- Solution 1 -->
+        <div class="glass-card organic-growth stagger-1" onclick="window.location.href='legal.html'" style="cursor: pointer; background: var(--glass-bg);">
+          <h3 class="mb-3" style="color: var(--primary-dark-green); font-size: 1.4rem;">Pesticide Application</h3>
+          <p style="margin-bottom: 1.5rem;">Targeted spraying mechanism that ensures uniform droplet size, coating crops efficiently from top to bottom while reducing drift and chemical exposure.</p>
+          <ul style="line-height: 2; padding-left: 0;">
+            <li style="color: var(--text-dark); font-weight: 600;">✅ RTK pinpoint accuracy</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Night-spraying capabilities</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Automated swarm flights</li>
+          </ul>
+        </div>
+
+        <!-- Solution 2 -->
+        <div class="glass-card organic-growth stagger-2" onclick="window.location.href='legal.html'" style="cursor: pointer; background: var(--glass-bg);">
+          <h3 class="mb-3" style="color: var(--primary-dark-green); font-size: 1.4rem;">Fertilizer & Seed Spreading</h3>
+          <p style="margin-bottom: 1.5rem;">Specially calibrated payload drops for granular or liquid fertilizer, seed broadcasting, and micronutrient distribution across large fields.</p>
+          <ul style="line-height: 2; padding-left: 0;">
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Variable rate application</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Large payload lifting (20L - 40L)</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ High-density farming support</li>
+          </ul>
+        </div>
+
+        <!-- Solution 3 -->
+        <div class="glass-card organic-growth stagger-3" onclick="window.location.href='legal.html'" style="cursor: pointer; background: var(--glass-bg);">
+          <h3 class="mb-3" style="color: var(--primary-dark-green); font-size: 1.4rem;">Multispectral Crop Analysis</h3>
+          <p style="margin-bottom: 1.5rem;">Advanced imaging techniques used to detect early signs of plant stress, optimizing resource distribution and preventing yield loss.</p>
+          <ul style="line-height: 2; padding-left: 0;">
+            <li style="color: var(--text-dark); font-weight: 600;">✅ NDRE & NDVI indexing</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Early disease detection</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Data-driven yield forecasting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider E -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card text-center card-expand-glow" style="background: var(--glass-bg); border: 2px solid var(--primary-dark-green);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="sprayingCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#sprayingCtaGrad)">
+            Ready to Take Flight?
+          </text>
+        </svg>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto 2.5rem; color: var(--text-dark);">Looking for drone services or planning to start your drone business? Contact us today for professional solutions.</p>
+        <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem; font-size: 1.1rem;">Contact Us Today</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer style="padding-top: 0;">
+    <!-- Liquid Organic Divider F -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem;">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/Logo_1.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying,
-            and repair services.</p>
+          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
+          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and repair services.</p>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>
@@ -278,6 +307,9 @@
           <a href="training.html">Drone Training</a>
           <a href="spraying.html">Agri Spraying</a>
           <a href="repair.html">Repairs & AMC</a>
+          <a href="mapping.html">Survey & Mapping</a>
+          <a href="sales.html">Sales & Consultation</a>
+          <a href="cable.html">Cable Deployment</a>
         </div>
         <div class="footer-col">
           <h4>Contact Us</h4>
@@ -291,9 +323,6 @@
       </div>
     </div>
   </footer>
-</body>
-
-</html>ter>
 </body>
 
 </html>

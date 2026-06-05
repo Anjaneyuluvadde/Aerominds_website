@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
   <title>About Us | Aerominds</title>
   <link rel="stylesheet" href="css/global.css">
@@ -14,23 +13,21 @@
 </head>
 
 <body>
-  <img src="assets/images/drone_field_bg.jpg" alt="Background" class="global-bg">
-  <div class="global-overlay"></div>
-
   <!-- Navbar -->
-  <nav class="navbar"><a href="index.html" class="brand">
-      <img src="assets/images/Logo_1.png" alt="Aerominds Logo">
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Logo.png" alt="Aerominds Logo">
     </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="about.html" style="color: var(--green-accent);">About</a>
+      <a href="about.html" style="color: var(--soft-sage-green);">About</a>
       <div class="dropdown">
         <a href="services.html">Services ▾</a>
         <div class="dropdown-menu">
           <a href="training.html">Drone Training & Certification</a>
           <a href="spraying.html">Precision Drone Spraying</a>
           <a href="repair.html">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid var(--border-grey); margin: 0.5rem 0;">
+          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
           <a href="mapping.html">Survey & Mapping</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
@@ -40,182 +37,211 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-actions">
-      <button class="menu-toggle"><span></span><span></span><span></span></button>
+      <button class="menu-toggle">
+        <span></span><span></span><span></span>
+      </button>
       <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-      <style>
-        .hidden-mobile-btn {
-          display: inline-block;
-        }
-
-        @media(max-width: 992px) {
-          .hidden-mobile-btn {
-            display: none;
-          }
-        }
-      </style>
     </div>
   </nav>
 
   <!-- Page Header -->
   <header class="page-header fade-in">
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="storyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#storyGrad)">
-        Our Story
-      </text>
-    </svg>
-    <p>Redefining aerial intelligence through technology, education, and precision.</p>
+    <div class="container">
+      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+        <defs>
+          <linearGradient id="storyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
+          </linearGradient>
+        </defs>
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#storyGrad)">
+          Our Story
+        </text>
+      </svg>
+      <p>Redefining aerial intelligence through technology, education, and precision.</p>
+    </div>
   </header>
 
   <!-- Story Section -->
-  <section class="container mb-4">
-    <div class="glass-card fade-in" style="padding: 3rem;">
-      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-        <defs>
-          <linearGradient id="whoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
-          </linearGradient>
-        </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="white" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" fill="url(#whoGrad)">
-          Who We Are
-        </text>
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider A -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,40 C1320,70 1200,90 1080,50 C960,10 840,120 720,70 C600,20 480,100 360,60 C240,20 120,80 0,40 Z"></path>
       </svg>
-      <p>AeroMinds is a professional drone services and solutions provider based in Andhra Pradesh. We focus on solving
-        real-world problems using drone technology, especially in agriculture and land-based applications.</p>
-      <p>Our approach is simple: deliver practical, efficient, and cost-effective drone solutions that create measurable
-        value.</p>
-
-      <div class="mt-4 mb-3">
-        <h3 style="font-size: 1.5rem;" class="mb-2">Who We Serve</h3>
-        <ul style="list-style: none; padding-left: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: bold;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Farmers
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: bold;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Farmer Producer Organizations (FPOs)
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: bold;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Agriculture companies
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: bold;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Survey and land management teams
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: bold;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Educational institutions
-          </li>
-          <li style="display: flex; align-items: center; gap: 0.5rem; font-weight: bold;">
-            <span style="color: var(--green-accent); font-weight: bold;">•</span> Drone entrepreneurs
-          </li>
-        </ul>
-      </div>
-
-      <p>We collaborate with established industry partners to strengthen our service delivery and training ecosystem,
-        ensuring our clients receive both practical exposure and certified pathways where required.</p>
     </div>
-  </section>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card card-expand-glow" style="padding: 3rem;">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto 1.5rem;">
+          <defs>
+            <linearGradient id="whoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#whoGrad)">
+            Who We Are
+          </text>
+        </svg>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 2.5rem; text-align: left;">
+          <div class="slide-snap-left" style="background: rgba(13, 83, 14, 0.03); padding: 2rem; border-radius: 12px; border: 1px solid rgba(13, 83, 14, 0.08);">
+            <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: 0; color: var(--text-dark);">AeroMinds is a professional drone services and solutions provider based in Andhra Pradesh. We focus on solving real-world problems using drone technology, especially in agriculture and land-based applications.</p>
+          </div>
+          <div class="slide-snap-right" style="background: rgba(13, 83, 14, 0.03); padding: 2rem; border-radius: 12px; border: 1px solid rgba(13, 83, 14, 0.08);">
+            <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: 0; color: var(--text-dark);">Our approach is simple: deliver practical, efficient, and cost-effective drone solutions that create measurable value.</p>
+          </div>
+        </div>
 
-  <section class="container mt-5 mb-5">
-    <div class="glass-card fade-in" style="padding: 3rem;">
-      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-        <defs>
-          <linearGradient id="chooseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
-          </linearGradient>
-        </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="white" stroke-width="10" stroke-linejoin="round" paint-order="stroke fill" fill="url(#chooseGrad)">
-          Why Choose Us
-        </text>
-      </svg>
-      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
-        <div style="display: flex; align-items: center; gap: 0.8rem; font-size: 1.1rem; font-weight: bold;">
-          <span style="color: var(--green-accent); font-size: 1.5rem;">✔</span> Real field experience, not just theory
-        </div>
-        <div style="display: flex; align-items: center; gap: 0.8rem; font-size: 1.1rem; font-weight: bold;">
-          <span style="color: var(--green-accent); font-size: 1.5rem;">✔</span> Fast and reliable execution
-        </div>
-        <div style="display: flex; align-items: center; gap: 0.8rem; font-size: 1.1rem; font-weight: bold;">
-          <span style="color: var(--green-accent); font-size: 1.5rem;">✔</span> Strong technical support system
-        </div>
-        <div style="display: flex; align-items: center; gap: 0.8rem; font-size: 1.1rem; font-weight: bold;">
-          <span style="color: var(--green-accent); font-size: 1.5rem;">✔</span> Focus on practical results
-        </div>
-        <div style="display: flex; align-items: center; gap: 0.8rem; font-size: 1.1rem; font-weight: bold;">
-          <span style="color: var(--green-accent); font-size: 1.5rem;">✔</span> Complete ecosystem through trusted
-          partnerships
+        <div class="mt-4 mb-3" style="border-top: 1px solid var(--border-grey); padding-top: 2rem;">
+          <h3 style="font-size: 1.6rem; color: var(--primary-dark-green);" class="mb-4 text-center">Who We Serve</h3>
+          <ul style="list-style: none; padding-left: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+            <li class="scale-pop stagger-1" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+              <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Farmers
+            </li>
+            <li class="scale-pop stagger-2" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+              <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Farmer Producer Organizations (FPOs)
+            </li>
+            <li class="scale-pop stagger-3" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+              <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Agriculture companies
+            </li>
+            <li class="scale-pop stagger-4" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+              <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Survey & Land Management Teams
+            </li>
+            <li class="scale-pop stagger-5" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+              <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Educational institutions
+            </li>
+            <li class="scale-pop stagger-6" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; font-size: 1.1rem; color: var(--text-dark);">
+              <span style="color: var(--primary-dark-green); font-size: 1.3rem;">•</span> Drone Entrepreneurs
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Certifications -->
-  <section class="container mt-4 mb-4">
-    <svg viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:1100px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="certGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#certGrad)">
-        Certifications & Collaborations
-      </text>
-    </svg>
-    <div class="stats-grid fade-in">
-      <div class="glass-card text-center" style="padding: 2rem;">
-        <h3>DGCA</h3>
-        <p>Approved Training Partner</p>
-      </div>
-      <div class="glass-card text-center" style="padding: 2rem;">
-        <h3>ISO 9001</h3>
-        <p>Comming soon...</p>
-      </div>
-      <div class="glass-card text-center" style="padding: 2rem;">
-        <h3>AgriTech</h3>
-        <p>Innovation Award</p>
-      </div>
-      <div class="glass-card text-center" style="padding: 2rem;">
-        <h3>Skill India</h3>
-        <p>Vocational Partner</p>
+  <!-- Choose Section -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider B -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,70 C1300,30 1150,110 1000,80 C850,50 700,120 550,60 C400,0 250,90 0,50 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card pivot-in" style="padding: 3.5rem; background: var(--glass-bg);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto 2rem;">
+          <defs>
+            <linearGradient id="chooseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#chooseGrad)">
+            Why Choose Us
+          </text>
+        </svg>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+          <div class="diagonal-reveal stagger-1" style="display: flex; align-items: flex-start; gap: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.5rem; line-height: 1;">✔</span>
+            <span>Real field experience, not just theory</span>
+          </div>
+          <div class="diagonal-reveal stagger-2" style="display: flex; align-items: flex-start; gap: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.5rem; line-height: 1;">✔</span>
+            <span>Fast and reliable execution protocols</span>
+          </div>
+          <div class="diagonal-reveal stagger-3" style="display: flex; align-items: flex-start; gap: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.5rem; line-height: 1;">✔</span>
+            <span>Strong technical support ecosystem</span>
+          </div>
+          <div class="diagonal-reveal stagger-4" style="display: flex; align-items: flex-start; gap: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.5rem; line-height: 1;">✔</span>
+            <span>Uncompromising focus on practical results</span>
+          </div>
+          <div class="diagonal-reveal stagger-5" style="display: flex; align-items: flex-start; gap: 1rem; font-size: 1.1rem; font-weight: 600; color: var(--text-dark);">
+            <span style="color: var(--primary-dark-green); font-size: 1.5rem; line-height: 1;">✔</span>
+            <span>End-to-end integration via trusted partnerships</span>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider C -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,50 C1280,100 1120,30 960,60 C800,90 640,10 480,80 C320,120 160,40 0,70 Z"></path>
+      </svg>
+    </div>
+    <div class="container text-center" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <svg viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:1100px; display:block; margin:0 auto 3rem;">
+        <defs>
+          <linearGradient id="certGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
+          </linearGradient>
+        </defs>
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="45" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#certGrad)">
+          Certifications & Collaborations
+        </text>
+      </svg>
+      <div class="stats-grid">
+        <div class="glass-card text-center scale-pop stagger-1" style="padding: 2.5rem;">
+          <h3 style="color: var(--primary-dark-green); font-size: 1.6rem; margin-bottom: 0.8rem;">DGCA</h3>
+          <p style="font-weight: 600; margin-bottom: 0;">Approved Training Partner</p>
+        </div>
+        <div class="glass-card text-center scale-pop stagger-2" style="padding: 2.5rem;">
+          <h3 style="color: var(--primary-dark-green); font-size: 1.6rem; margin-bottom: 0.8rem;">ISO 9001</h3>
+          <p style="font-weight: 600; margin-bottom: 0;">Coming soon...</p>
+        </div>
+        <div class="glass-card text-center scale-pop stagger-3" style="padding: 2.5rem;">
+          <h3 style="color: var(--primary-dark-green); font-size: 1.6rem; margin-bottom: 0.8rem;">AgriTech</h3>
+          <p style="font-weight: 600; margin-bottom: 0;">Innovation Award</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Final CTA Section -->
-  <section class="section-padding container">
-    <div class="glass-card text-center fade-in"
-      style="background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(123, 179, 66, 0.1)); border: 1px solid var(--green-accent);">
-      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-        <defs>
-          <linearGradient id="flightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
-          </linearGradient>
-        </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#flightGrad)">
-          Ready to Take Flight?
-        </text>
+  <!-- Final CTA Section (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider D -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,80 C1320,40 1200,60 1080,90 C960,120 840,40 720,50 C600,60 480,100 360,40 C240,-10 120,80 0,60 Z"></path>
       </svg>
-      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Looking for drone services or planning to
-        start your drone business? Contact us today for professional solutions.</p>
-      <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Contact Us Today</a>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card text-center card-expand-glow" style="background: var(--glass-bg); border: 2px solid var(--primary-dark-green);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="flightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#flightGrad)">
+            Ready to Take Flight?
+          </text>
+        </svg>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto 2.5rem; color: var(--text-dark);">Looking for drone services or planning to start your drone business? Contact us today for professional solutions.</p>
+        <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem; font-size: 1.1rem;">Contact Us Today</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer style="padding-top: 0;">
+    <!-- Liquid Organic Divider E -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem;">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/Logo_1.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying,
-            and repair services.</p>
+          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
+          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and repair services.</p>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>

@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
   <title>Services Hub | Aerominds</title>
   <link rel="stylesheet" href="css/global.css">
@@ -14,23 +13,21 @@
 </head>
 
 <body>
-  <img src="assets/images/drone_field_bg.jpg" alt="Background" class="global-bg">
-  <div class="global-overlay"></div>
-
   <!-- Navbar -->
-  <nav class="navbar"><a href="index.html" class="brand">
-      <img src="assets/images/Logo_1.png" alt="Aerominds Logo">
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Logo.png" alt="Aerominds Logo">
     </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <div class="dropdown">
-        <a href="services.html" style="color: var(--green-accent);">Services ▾</a>
+        <a href="services.html" style="color: var(--soft-sage-green);">Services ▾</a>
         <div class="dropdown-menu">
           <a href="training.html">Drone Training & Certification</a>
           <a href="spraying.html">Precision Drone Spraying</a>
           <a href="repair.html">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid var(--border-grey); margin: 0.5rem 0;">
+          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
           <a href="mapping.html">Survey & Mapping</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
@@ -40,121 +37,144 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-actions">
-      <button class="menu-toggle"><span></span><span></span><span></span></button>
+      <button class="menu-toggle">
+        <span></span><span></span><span></span>
+      </button>
       <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-      <style>
-        .hidden-mobile-btn {
-          display: inline-block;
-        }
-
-        @media(max-width: 992px) {
-          .hidden-mobile-btn {
-            display: none;
-          }
-        }
-      </style>
     </div>
   </nav>
 
   <!-- Page Header -->
   <header class="page-header fade-in">
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="servicesHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#servicesHeaderGrad)">
-        Our Services
-      </text>
-    </svg>
-    <p>Comprehensive drone solutions driving accuracy, productivity, and safety in operations worldwide.</p>
+    <div class="container">
+      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+        <defs>
+          <linearGradient id="servicesHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
+          </linearGradient>
+        </defs>
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#servicesHeaderGrad)">
+          Our Services
+        </text>
+      </svg>
+      <p>Comprehensive drone solutions driving accuracy, productivity, and safety in operations worldwide.</p>
+    </div>
   </header>
 
-  <!-- Service Hub Selection -->
-  <section class="container mb-4 fade-in">
-    <div class="service-cards-grid scale-in" style="grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/hero_training_indian.png" alt="Drone Training" class="card-img">
-        <div class="card-content">
-          <h3>Drone Training</h3>
-          <p>Get DGCA certified today. Become a top-rated Drone Pilot with our expert-led programs.</p>
-          <a href="training.html" class="btn btn-secondary mt-2">View Courses</a>
+  <!-- Service Hub Selection (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider A -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,40 C1320,70 1200,90 1080,50 C960,10 840,120 720,70 C600,20 480,100 360,60 C240,20 120,80 0,40 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="service-cards-grid">
+        <!-- Service Card 1 -->
+        <div class="glass-card service-hub-card flip-card-left stagger-1">
+          <img src="assets/images/hero_training_indian.png" alt="Drone Training" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Drone Training</h3>
+            <p>Get DGCA certified today. Become a top-rated Drone Pilot with our expert-led programs.</p>
+            <a href="training.html" class="btn btn-secondary shimmer-sweep mt-2">View Courses</a>
+          </div>
         </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/hero_spraying_indian.png" alt="Spraying Services" class="card-img">
-        <div class="card-content">
-          <h3>Spraying Services</h3>
-          <p>Agri-spray technology targeting maximum yield and less waste for sustainable farming.</p>
-          <a href="spraying.html" class="btn btn-secondary mt-2">Discover Solutions</a>
+
+        <!-- Service Card 2 -->
+        <div class="glass-card service-hub-card flip-card-right stagger-2">
+          <img src="assets/images/hero_spraying_indian.png" alt="Spraying Services" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Spraying Services</h3>
+            <p>Agri-spray technology targeting maximum yield and less waste for sustainable farming.</p>
+            <a href="spraying.html" class="btn btn-secondary shimmer-sweep mt-2">Discover Solutions</a>
+          </div>
         </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/hero_repair_indian.png" alt="Drone Repair" class="card-img">
-        <div class="card-content">
-          <h3>Drone Repair</h3>
-          <p>Maintain peak performance with dedicated repair, diagnostics, and contract services.</p>
-          <a href="repair.html" class="btn btn-secondary mt-2">See Coverage</a>
+
+        <!-- Service Card 3 -->
+        <div class="glass-card service-hub-card flip-card-left stagger-3">
+          <img src="assets/images/hero_repair_indian.png" alt="Drone Repair" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Drone Repair</h3>
+            <p>Maintain peak performance with dedicated repair, diagnostics, and contract services.</p>
+            <a href="repair.html" class="btn btn-secondary shimmer-sweep mt-2">See Coverage</a>
+          </div>
         </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/mapping_indian.png" alt="Survey & Mapping" class="card-img">
-        <div class="card-content">
-          <h3>Survey & Mapping</h3>
-          <p>High-precision aerial surveys and 3D mapping for infrastructure and land planning.</p>
-          <a href="mapping.html" class="btn btn-secondary mt-2">Explore Mapping</a>
+
+        <!-- Service Card 4 -->
+        <div class="glass-card service-hub-card flip-card-right stagger-4">
+          <img src="assets/images/mapping_indian.png" alt="Survey & Mapping" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Survey & Mapping</h3>
+            <p>High-precision aerial surveys and 3D mapping for infrastructure and land planning.</p>
+            <a href="mapping.html" class="btn btn-secondary shimmer-sweep mt-2">Explore Mapping</a>
+          </div>
         </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/sales_indian.png" alt="Sales & Consultation" class="card-img">
-        <div class="card-content">
-          <h3>Sales & Consultation</h3>
-          <p>Expert guidance on drone procurement, configuration, and operational compliance.</p>
-          <a href="sales.html" class="btn btn-secondary mt-2">Get Consultation</a>
+
+        <!-- Service Card 5 -->
+        <div class="glass-card service-hub-card flip-card-left stagger-5">
+          <img src="assets/images/sales_indian.png" alt="Sales & Consultation" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Sales & Consultation</h3>
+            <p>Expert guidance on drone procurement, configuration, and operational compliance.</p>
+            <a href="sales.html" class="btn btn-secondary shimmer-sweep mt-2">Get Consultation</a>
+          </div>
         </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/cable_indian.png" alt="Cable Deployment" class="card-img">
-        <div class="card-content">
-          <h3>Cable Deployment</h3>
-          <p>Safe and efficient building-to-building pilot rope deployment for fiber networks.</p>
-          <a href="cable.html" class="btn btn-secondary mt-2">View Solutions</a>
+
+        <!-- Service Card 6 -->
+        <div class="glass-card service-hub-card flip-card-right stagger-6">
+          <img src="assets/images/cable_indian.png" alt="Cable Deployment" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Cable Deployment</h3>
+            <p>Safe and efficient building-to-building pilot rope deployment for fiber networks.</p>
+            <a href="cable.html" class="btn btn-secondary shimmer-sweep mt-2">View Solutions</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Final CTA Section -->
-  <section class="section-padding container">
-    <div class="glass-card text-center fade-in"
-      style="background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(123, 179, 66, 0.1)); border: 1px solid var(--green-accent);">
-      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-        <defs>
-          <linearGradient id="servicesCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
-          </linearGradient>
-        </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#servicesCtaGrad)">
-          Ready to Take Flight?
-        </text>
+  <!-- Final CTA Section (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider B -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,70 C1300,30 1150,110 1000,80 C850,50 700,120 550,60 C400,0 250,90 0,50 Z"></path>
       </svg>
-      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Looking for drone services or planning to
-        start your drone business? Contact us today for professional solutions.</p>
-      <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Contact Us Today</a>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card text-center card-expand-glow" style="background: var(--glass-bg); border: 2px solid var(--primary-dark-green);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="servicesCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#servicesCtaGrad)">
+            Ready to Take Flight?
+          </text>
+        </svg>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto 2.5rem; color: var(--text-dark);">Looking for drone services or planning to start your drone business? Contact us today for professional solutions.</p>
+        <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem; font-size: 1.1rem;">Contact Us Today</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer style="padding-top: 0;">
+    <!-- Liquid Organic Divider E -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem;">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/Logo_1.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying,
-            and repair services.</p>
+          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
+          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and repair services.</p>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>
@@ -167,10 +187,10 @@
           <h4>Services</h4>
           <a href="training.html">Drone Training</a>
           <a href="spraying.html">Agri Spraying</a>
+          <a href="repair.html">Repairs & AMC</a>
           <a href="mapping.html">Survey & Mapping</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
-          <a href="repair.html">Repairs & AMC</a>
         </div>
         <div class="footer-col">
           <h4>Contact Us</h4>
@@ -184,13 +204,6 @@
       </div>
     </div>
   </footer>
-</body>
-
-</html>
-<p>&copy; 2026 Aerominds. All Rights Reserved.</p>
-</div>
-</div>
-</footer>
 </body>
 
 </html>

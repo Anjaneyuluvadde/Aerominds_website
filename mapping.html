@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
   <title>Drone-Based Survey & Mapping | Aerominds</title>
   <link rel="stylesheet" href="css/global.css">
@@ -14,24 +13,22 @@
 </head>
 
 <body>
-  <img src="assets/images/hero-mapping.png" alt="Drone Mapping and Surveying" class="global-bg">
-  <div class="global-overlay"></div>
-
   <!-- Navbar -->
-  <nav class="navbar"><a href="index.html" class="brand">
-      <img src="assets/images/Logo_1.png" alt="Aerominds Logo">
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Logo.png" alt="Aerominds Logo">
     </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <div class="dropdown">
-        <a href="services.html" style="color: var(--green-accent);">Services ▾</a>
+        <a href="services.html">Services ▾</a>
         <div class="dropdown-menu">
           <a href="training.html">Drone Training & Certification</a>
           <a href="spraying.html">Precision Drone Spraying</a>
           <a href="repair.html">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid var(--border-grey); margin: 0.5rem 0;">
-          <a href="mapping.html" style="color: var(--blue-accent);">Survey & Mapping</a>
+          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
+          <a href="mapping.html" style="color: var(--soft-sage-green);">Survey & Mapping</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
         </div>
@@ -40,130 +37,147 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-actions">
-      <button class="menu-toggle"><span></span><span></span><span></span></button>
+      <button class="menu-toggle">
+        <span></span><span></span><span></span>
+      </button>
       <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-      <style>
-        .hidden-mobile-btn {
-          display: inline-block;
-        }
-
-        @media(max-width: 992px) {
-          .hidden-mobile-btn {
-            display: none;
-          }
-        }
-      </style>
     </div>
   </nav>
 
   <!-- Page Header -->
   <header class="page-header fade-in">
-    <svg viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:1100px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="mappingHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#mappingHeaderGrad)">
-        Drone-Based Survey & Mapping
-      </text>
-    </svg>
-    <p>High-precision aerial surveys for infrastructure, land mapping, and planning</p>
-  </header>
-
-
-
-  <!-- Agricultural Solutions Section (Top) -->
-  <section class="container mb-5 fade-in">
-    <div class="service-cards-grid scale-in">
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/spraying_indian.png" alt="Crop Spraying" class="card-img">
-        <div class="card-content">
-          <h3>Crop Spraying</h3>
-          <p>Automated drone spraying for uniform coverage, reduced chemical usage, and 50x faster execution than manual
-            methods.</p>
-          <a href="spraying.html" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/monitoring_indian.png" alt="Crop Monitoring" class="card-img">
-        <div class="card-content">
-          <h3>Crop Monitoring</h3>
-          <p>Real-time crop health monitoring using multispectral sensors to identify pest infestations and nutrient
-            deficiencies early.</p>
-          <a href="contact.html" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/agri_solutions_indian.png" alt="Precision Agri Solutions" class="card-img">
-        <div class="card-content">
-          <h3>Precision Agri Solutions</h3>
-          <p>End-to-end data-driven agriculture solutions to optimize farm productivity and ensure sustainable farming
-            practices.</p>
-          <a href="contact.html" class="btn btn-primary">Get Consultation</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Benefits & Process Section -->
-  <section class="container mb-5">
-    <div class="glass-card fade-in" style="padding: 3rem;">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
-        <div style="border-left: 4px solid var(--green-accent); padding-left: 2rem;">
-          <h3 style="margin-bottom: 0.7rem; font-size: 1.4rem;">Core Benefits</h3>
-          <ul style="list-style: disc; margin-left: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
-            <li>Faster project execution</li>
-            <li>Cost-effective surveys</li>
-            <li>Improved accuracy</li>
-            <li>Safer than traditional methods</li>
-          </ul>
-        </div>
-        <div style="border-left: 4px solid var(--blue-accent); padding-left: 2rem;">
-          <h3 style="margin-bottom: 0.7rem; font-size: 1.4rem;">Work Process</h3>
-          <ol style="margin-left: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
-            <li>Requirement analysis</li>
-            <li>Flight planning</li>
-            <li>Data capture</li>
-            <li>Processing & analysis</li>
-            <li>Report delivery</li>
-          </ol>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA Section -->
-  <section class="section-padding container">
-    <div class="glass-card text-center fade-in"
-      style="background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(123, 179, 66, 0.1)); border: 1px solid var(--green-accent);">
-      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+    <div class="container">
+      <svg viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:1100px; display:block; margin:0 auto;">
         <defs>
-          <linearGradient id="mappingCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
+          <linearGradient id="mappingHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
           </linearGradient>
         </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#mappingCtaGrad)">
-          Ready to Get Accurate Data?
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#mappingHeaderGrad)">
+          Drone-Based Survey & Mapping
         </text>
       </svg>
-      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Optimize your planning and decision-making
-        with our high-precision mapping solutions.</p>
-      <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Get Accurate Mapping
-        Today</a>
+      <p>High-precision aerial surveys for infrastructure, land mapping, and planning</p>
+    </div>
+  </header>
+
+  <!-- Agricultural Solutions Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider A -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,40 C1320,70 1200,90 1080,50 C960,10 840,120 720,70 C600,20 480,100 360,60 C240,20 120,80 0,40 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="service-cards-grid">
+        <!-- Solution 1 -->
+        <div class="glass-card service-hub-card scan-grid-card scanner-sweep stagger-1">
+          <img src="assets/images/spraying_indian.png" alt="Crop Spraying" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Crop Spraying</h3>
+            <p>Automated drone spraying for uniform coverage, reduced chemical usage, and 50x faster execution than manual methods.</p>
+            <a href="spraying.html" class="btn btn-primary shimmer-sweep">Learn More</a>
+          </div>
+        </div>
+        <!-- Solution 2 -->
+        <div class="glass-card service-hub-card scan-grid-card scanner-sweep stagger-2">
+          <img src="assets/images/monitoring_indian.png" alt="Crop Monitoring" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Crop Monitoring</h3>
+            <p>Real-time crop health monitoring using multispectral sensors to identify pest infestations and nutrient deficiencies early.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Learn More</a>
+          </div>
+        </div>
+        <!-- Solution 3 -->
+        <div class="glass-card service-hub-card scan-grid-card scanner-sweep stagger-3">
+          <img src="assets/images/agri_solutions_indian.png" alt="Precision Agri Solutions" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Precision Agri Solutions</h3>
+            <p>End-to-end data-driven agriculture solutions to optimize farm productivity and ensure sustainable farming practices.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Get Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits & Process Section (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider B -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,70 C1300,30 1150,110 1000,80 C850,50 700,120 550,60 C400,0 250,90 0,50 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card card-expand-glow" style="padding: 3rem; background: var(--glass-bg);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3rem;">
+          <div class="slide-snap-left stagger-1" style="border-left: 4px solid var(--primary-dark-green); padding-left: 2rem;">
+            <h3 style="margin-bottom: 1rem; font-size: 1.4rem; color: var(--primary-dark-green);">Core Benefits</h3>
+            <ul style="list-style: disc; margin-left: 1.2rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-dark);">
+              <li>Faster project execution</li>
+              <li>Cost-effective surveys</li>
+              <li>Improved accuracy</li>
+              <li>Safer than traditional methods</li>
+            </ul>
+          </div>
+          <div class="slide-snap-right stagger-2" style="border-left: 4px solid var(--secondary-forest-green); padding-left: 2rem;">
+            <h3 style="margin-bottom: 1rem; font-size: 1.4rem; color: var(--primary-dark-green);">Work Process</h3>
+            <ol style="margin-left: 1.2rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-dark);">
+              <li>Requirement analysis</li>
+              <li>Flight path planning</li>
+              <li>Aerial data capture</li>
+              <li>Processing & photogrammetry</li>
+              <li>High-fidelity report delivery</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider C -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,50 C1280,100 1120,30 960,60 C800,90 640,10 480,80 C320,120 160,40 0,70 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card text-center card-expand-glow" style="background: var(--glass-bg); border: 2px solid var(--primary-dark-green);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="mappingCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#mappingCtaGrad)">
+            Ready to Get Accurate Data?
+          </text>
+        </svg>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto 2.5rem; color: var(--text-dark);">Optimize your planning and decision-making with our high-precision mapping solutions.</p>
+        <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem; font-size: 1.1rem;">Get Accurate Mapping Today</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer style="padding-top: 0;">
+    <!-- Liquid Organic Divider E -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem;">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/Logo_1.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying,
-            and mapping services.</p>
+          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
+          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and mapping services.</p>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>

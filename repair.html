@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
   <title>Drone Repair & AMC | Aerominds</title>
   <link rel="stylesheet" href="css/global.css">
@@ -14,23 +13,21 @@
 </head>
 
 <body>
-  <img src="assets/images/hero-repair.png" alt="Drone Repair Workshop" class="global-bg">
-  <div class="global-overlay"></div>
-
   <!-- Navbar -->
-  <nav class="navbar"><a href="index.html" class="brand">
-      <img src="assets/images/Logo_1.png" alt="Aerominds Logo">
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Logo.png" alt="Aerominds Logo">
     </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <div class="dropdown">
-        <a href="services.html" style="color: var(--green-accent);">Services ▾</a>
+        <a href="services.html">Services ▾</a>
         <div class="dropdown-menu">
           <a href="training.html">Drone Training & Certification</a>
           <a href="spraying.html">Precision Drone Spraying</a>
-          <a href="repair.html" style="color: var(--blue-accent);">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid var(--border-grey); margin: 0.5rem 0;">
+          <a href="repair.html" style="color: var(--soft-sage-green);">Drone Repair & AMC</a>
+          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
           <a href="mapping.html">Survey & Mapping</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
@@ -40,146 +37,161 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-actions">
-      <button class="menu-toggle"><span></span><span></span><span></span></button>
+      <button class="menu-toggle">
+        <span></span><span></span><span></span>
+      </button>
       <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-      <style>
-        .hidden-mobile-btn {
-          display: inline-block;
-        }
-
-        @media(max-width: 992px) {
-          .hidden-mobile-btn {
-            display: none;
-          }
-        }
-      </style>
     </div>
   </nav>
 
   <!-- Page Header -->
   <header class="page-header fade-in">
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="repairHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#repairHeaderGrad)">
-        Drone Repair & AMC
-      </text>
-    </svg>
-    <p>Expert diagnostics, crash recoveries, and routine maintenance to minimize your downtime.</p>
-  </header>
-
-  <!-- Service Cards Section -->
-  <section class="container mb-5 fade-in">
-    <div class="service-cards-grid scale-in" style="margin-top: 2rem;">
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/repair_indian.png" alt="Comprehensive Repair" class="card-img" loading="lazy"
-          decoding="async">
-        <div class="card-content">
-          <h3>Comprehensive Repair</h3>
-          <p>Expert diagnostics and structural restoration for all drone models, including crash recovery and component
-            replacement.</p>
-          <a href="contact.html" class="btn btn-primary">Book Repair</a>
-        </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/hero_repair_indian.png" alt="Preventive Maintenance" class="card-img" loading="lazy"
-          decoding="async">
-        <div class="card-content">
-          <h3>Preventive Maintenance</h3>
-          <p>Proactive fleet inspections and wear-and-tear monitoring to prevent unexpected failures and extend drone
-            lifespan.</p>
-          <a href="contact.html" class="btn btn-primary">Book Repair</a>
-        </div>
-      </div>
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/industrial_indian.png" alt="Safety & Compliance" class="card-img" loading="lazy"
-          decoding="async">
-        <div class="card-content">
-          <h3>Safety & Compliance</h3>
-          <p>Rigorous safety checks and DGCA-compliant logs to ensure your operations meet all legal and operational
-            standards.</p>
-          <a href="contact.html" class="btn btn-primary">Book Repair</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container mb-4 fade-in">
-    <div class="repair-grid scale-in">
-
-      <!-- Technical Support -->
-      <div class="glass-card fade-in">
-        <h3 class="mb-2">Technical Support</h3>
-        <p>We provide complete technical support for drones to keep your operations running smoothly.</p>
-        <ul style="line-height: 2; margin-top: 1rem;">
-          <li>✅ Maintenance and servicing</li>
-          <li>✅ Repairs and troubleshooting</li>
-          <li>✅ System checks and calibration</li>
-        </ul>
-        <a href="contact.html" class="btn btn-secondary mt-3">Book Service</a>
-      </div>
-
-      <!-- Spare Parts -->
-      <div class="glass-card fade-in">
-        <h3 class="mb-2">Spare Parts Sales</h3>
-        <p>We supply essential drone spare parts to minimize downtime and ensure smooth operations for your fleet.</p>
-        <ul style="line-height: 2; margin-top: 1rem;">
-          <li>✅ High-quality OEM parts</li>
-          <li>✅ Fast shipping options</li>
-          <li>✅ Technical guidance on replacement</li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary mt-3">Inquire for Parts</a>
-      </div>
-
-      <!-- Annual Maintenance -->
-      <div class="glass-card fade-in">
-        <h3 class="mb-2">Annual Maintenance</h3>
-        <p>Comprehensive fleet care plans with standard and premium options to ensure zero downtime.</p>
-        <ul style="line-height: 2; margin-top: 1rem;">
-          <li>✅ Scheduled fleet inspections</li>
-          <li>✅ Remote & on-site support</li>
-          <li>✅ Discounts on replacement parts</li>
-        </ul>
-        <a href="contact.html" class="btn btn-secondary mt-3">Get AMC Quote</a>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- Final CTA Section -->
-  <section class="section-padding container">
-    <div class="glass-card text-center fade-in"
-      style="background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(123, 179, 66, 0.1)); border: 1px solid var(--green-accent);">
+    <div class="container">
       <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
         <defs>
-          <linearGradient id="repairCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
+          <linearGradient id="repairHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
           </linearGradient>
         </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#repairCtaGrad)">
-          Ready to Take Flight?
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#repairHeaderGrad)">
+          Drone Repair & AMC
         </text>
       </svg>
-      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Looking for drone services or planning to
-        start your drone business? Contact us today for professional solutions.</p>
-      <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Contact Us Today</a>
+      <p>Expert diagnostics, crash recoveries, and routine maintenance to minimize your downtime.</p>
+    </div>
+  </header>
+
+  <!-- Service Cards Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider A -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,40 C1320,70 1200,90 1080,50 C960,10 840,120 720,70 C600,20 480,100 360,60 C240,20 120,80 0,40 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="service-cards-grid">
+        <!-- Card 1 -->
+        <div class="glass-card service-hub-card pivot-in stagger-1">
+          <img src="assets/images/repair_indian.png" alt="Comprehensive Repair" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Comprehensive Repair</h3>
+            <p>Expert diagnostics and structural restoration for all drone models, including crash recovery and component replacement.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Book Repair</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="glass-card service-hub-card pivot-in stagger-2">
+          <img src="assets/images/hero_repair_indian.png" alt="Preventive Maintenance" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Preventive Maintenance</h3>
+            <p>Proactive fleet inspections and wear-and-tear monitoring to prevent unexpected failures and extend drone lifespan.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Book Repair</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="glass-card service-hub-card pivot-in stagger-3">
+          <img src="assets/images/industrial_indian.png" alt="Safety & Compliance" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Safety & Compliance</h3>
+            <p>Rigorous safety checks and DGCA-compliant logs to ensure your operations meet all legal and operational standards.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Book Repair</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secondary Grid (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider B -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,70 C1300,30 1150,110 1000,80 C850,50 700,120 550,60 C400,0 250,90 0,50 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="repair-grid">
+        <!-- Technical Support -->
+        <div class="glass-card assemble-top-left" style="background: var(--glass-bg);">
+          <h3 class="mb-3" style="color: var(--primary-dark-green); font-size: 1.4rem;">Technical Support</h3>
+          <p>We provide complete technical support for drones to keep your operations running smoothly.</p>
+          <ul style="line-height: 2; margin-top: 1rem; padding-left: 0;">
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Maintenance and servicing</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Repairs and troubleshooting</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ System checks and calibration</li>
+          </ul>
+          <a href="contact.html" class="btn btn-secondary shimmer-sweep mt-4" style="width:100%;">Book Service</a>
+        </div>
+
+        <!-- Spare Parts -->
+        <div class="glass-card assemble-top-right" style="background: var(--glass-bg);">
+          <h3 class="mb-3" style="color: var(--primary-dark-green); font-size: 1.4rem;">Spare Parts Sales</h3>
+          <p>We supply essential drone spare parts to minimize downtime and ensure smooth operations for your fleet.</p>
+          <ul style="line-height: 2; margin-top: 1rem; padding-left: 0;">
+            <li style="color: var(--text-dark); font-weight: 600;">✅ High-quality OEM parts</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Fast shipping options</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Technical guidance on replacement</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary shimmer-sweep mt-4" style="width:100%;">Inquire for Parts</a>
+        </div>
+
+        <!-- Annual Maintenance -->
+        <div class="glass-card assemble-bottom-center" style="background: var(--glass-bg);">
+          <h3 class="mb-3" style="color: var(--primary-dark-green); font-size: 1.4rem;">Annual Maintenance</h3>
+          <p>Comprehensive fleet care plans with standard and premium options to ensure zero downtime.</p>
+          <ul style="line-height: 2; margin-top: 1rem; padding-left: 0;">
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Scheduled fleet inspections</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Remote & on-site support</li>
+            <li style="color: var(--text-dark); font-weight: 600;">✅ Discounts on replacement parts</li>
+          </ul>
+          <a href="contact.html" class="btn btn-secondary shimmer-sweep mt-4" style="width:100%;">Get AMC Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider C -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,50 C1280,100 1120,30 960,60 C800,90 640,10 480,80 C320,120 160,40 0,70 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card text-center card-expand-glow" style="background: var(--glass-bg); border: 2px solid var(--primary-dark-green);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="repairCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#repairCtaGrad)">
+            Ready to Take Flight?
+          </text>
+        </svg>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto 2.5rem; color: var(--text-dark);">Looking for drone services or planning to start your drone business? Contact us today for professional solutions.</p>
+        <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem; font-size: 1.1rem;">Contact Us Today</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer style="padding-top: 0;">
+    <!-- Liquid Organic Divider E -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem;">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/Logo_1.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying,
-            and repair services.</p>
+          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
+          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and repair services.</p>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>
@@ -193,6 +205,9 @@
           <a href="training.html">Drone Training</a>
           <a href="spraying.html">Agri Spraying</a>
           <a href="repair.html">Repairs & AMC</a>
+          <a href="mapping.html">Survey & Mapping</a>
+          <a href="sales.html">Sales & Consultation</a>
+          <a href="cable.html">Cable Deployment</a>
         </div>
         <div class="footer-col">
           <h4>Contact Us</h4>

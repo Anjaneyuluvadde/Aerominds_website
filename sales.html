@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" href="assets/images/logo_header_transparent.png">
   <title>Drone Sales & Consultation | Aerominds</title>
   <link rel="stylesheet" href="css/global.css">
@@ -14,25 +13,23 @@
 </head>
 
 <body>
-  <img src="assets/images/hero-sales.png" alt="Drone Sales Showroom" class="global-bg">
-  <div class="global-overlay"></div>
-
   <!-- Navbar -->
-  <nav class="navbar"><a href="index.html" class="brand">
-      <img src="assets/images/Logo_1.png" alt="Aerominds Logo">
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Logo.png" alt="Aerominds Logo">
     </a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <div class="dropdown">
-        <a href="services.html" style="color: var(--green-accent);">Services ▾</a>
+        <a href="services.html">Services ▾</a>
         <div class="dropdown-menu">
           <a href="training.html">Drone Training & Certification</a>
           <a href="spraying.html">Precision Drone Spraying</a>
           <a href="repair.html">Drone Repair & AMC</a>
-          <hr style="border: 0; border-top: 1px solid var(--border-grey); margin: 0.5rem 0;">
+          <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.15); margin: 0.5rem 0;">
           <a href="mapping.html">Survey & Mapping</a>
-          <a href="sales.html" style="color: var(--blue-accent);">Sales & Consultation</a>
+          <a href="sales.html" style="color: var(--soft-sage-green);">Sales & Consultation</a>
           <a href="cable.html">Cable Deployment</a>
         </div>
       </div>
@@ -40,133 +37,149 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-actions">
-      <button class="menu-toggle"><span></span><span></span><span></span></button>
+      <button class="menu-toggle">
+        <span></span><span></span><span></span>
+      </button>
       <a href="contact.html" class="btn btn-primary hidden-mobile-btn">Get Started</a>
-      <style>
-        .hidden-mobile-btn {
-          display: inline-block;
-        }
-
-        @media(max-width: 992px) {
-          .hidden-mobile-btn {
-            display: none;
-          }
-        }
-      </style>
     </div>
   </nav>
 
   <!-- Page Header -->
   <header class="page-header fade-in">
-    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
-      <defs>
-        <linearGradient id="salesHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1A72D9"/>
-          <stop offset="100%" stop-color="#22C97A"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#salesHeaderGrad)">
-        Drone Sales & Consultation
-      </text>
-    </svg>
-    <p>End-to-end support for drone procurement, setup, and operational guidance</p>
-  </header>
-
-
-
-  <!-- Key Features Grid -->
-  <section class="container mb-4 fade-in">
-    <div class="service-cards-grid">
-
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/sales_indian.png" alt="Custom Solutions" class="card-img">
-        <div class="card-content">
-          <h3>Custom Solutions</h3>
-          <p>Tailored drone packages designed for agriculture, surveying, and industrial monitoring to fit your business
-            model.</p>
-          <a href="contact.html" class="btn btn-primary">Connect free call</a>
-        </div>
-      </div>
-
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/preventive_indian.png" alt="Setup & Config" class="card-img">
-        <div class="card-content">
-          <h3>Setup & Config</h3>
-          <p>Professional setup, firmware updates, and initial testing to ensure your fleet is mission-ready from day
-            one.</p>
-          <a href="contact.html" class="btn btn-primary">Connect free call</a>
-        </div>
-      </div>
-
-      <div class="glass-card service-hub-card fade-in">
-        <img src="assets/images/compliance_indian.png" alt="Compliance Support" class="card-img">
-        <div class="card-content">
-          <h3>Compliance Support</h3>
-          <p>Navigating DGCA regulations, pilot licensing, and digital sky platform registration for legal and safe
-            operations.</p>
-          <a href="contact.html" class="btn btn-primary">Connect free call</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Benefits & Process Section -->
-  <section class="container mb-5">
-    <div class="glass-card fade-in" style="padding: 3rem;">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
-        <div style="border-left: 4px solid var(--green-accent); padding-left: 2rem;">
-          <h3 style="margin-bottom: 0.7rem; font-size: 1.4rem;">Key Benefits</h3>
-          <ul style="list-style: disc; margin-left: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
-            <li>Right drone for your needs</li>
-            <li>Reduced setup complexity</li>
-            <li>Expert industrial guidance</li>
-            <li>Faster operational deployment</li>
-          </ul>
-        </div>
-        <div style="border-left: 4px solid var(--blue-accent); padding-left: 2rem;">
-          <h3 style="margin-bottom: 0.7rem; font-size: 1.4rem;">Our Process</h3>
-          <ol style="margin-left: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
-            <li>Requirement consultation</li>
-            <li>Product recommendation</li>
-            <li>Procurement assistance</li>
-            <li>Setup & testing</li>
-            <li>Training & support</li>
-          </ol>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA Section -->
-  <section class="section-padding container">
-    <div class="glass-card text-center fade-in"
-      style="background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(123, 179, 66, 0.1)); border: 1px solid var(--green-accent);">
+    <div class="container">
       <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
         <defs>
-          <linearGradient id="salesCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1A72D9"/>
-            <stop offset="100%" stop-color="#22C97A"/>
+          <linearGradient id="salesHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
           </linearGradient>
         </defs>
-        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="white" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#salesCtaGrad)">
-          Find Your Perfect Solution
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#salesHeaderGrad)">
+          Drone Sales & Consultation
         </text>
       </svg>
-      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Get in touch for a detailed consultation
-        session and find the right drone for your business.</p>
-      <a href="contact.html" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">Find the Right Drone
-        Solution</a>
+      <p>End-to-end support for drone procurement, setup, and operational guidance</p>
+    </div>
+  </header>
+
+  <!-- Key Features Grid (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider A -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,40 C1320,70 1200,90 1080,50 C960,10 840,120 720,70 C600,20 480,100 360,60 C240,20 120,80 0,40 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="service-cards-grid">
+        <!-- Solution 1 -->
+        <div class="glass-card service-hub-card layer-bg-offset stagger-1">
+          <img src="assets/images/sales_indian.png" alt="Custom Solutions" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Custom Solutions</h3>
+            <p>Tailored drone packages designed for agriculture, surveying, and industrial monitoring to fit your business model.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Connect Free Call</a>
+          </div>
+        </div>
+
+        <!-- Solution 2 -->
+        <div class="glass-card service-hub-card scale-pop stagger-2">
+          <img src="assets/images/preventive_indian.png" alt="Setup & Config" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Setup & Config</h3>
+            <p>Professional setup, firmware updates, and initial testing to ensure your fleet is mission-ready from day one.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Connect Free Call</a>
+          </div>
+        </div>
+
+        <!-- Solution 3 -->
+        <div class="glass-card service-hub-card layer-fg-offset stagger-3">
+          <img src="assets/images/compliance_indian.png" alt="Compliance Support" class="card-img" loading="lazy">
+          <div class="card-content">
+            <h3>Compliance Support</h3>
+            <p>Navigating DGCA regulations, pilot licensing, and digital sky platform registration for legal and safe operations.</p>
+            <a href="contact.html" class="btn btn-primary shimmer-sweep">Connect Free Call</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits & Process Section (Alternate Section Style) -->
+  <section class="section-alt">
+    <!-- Liquid Organic Divider B -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,70 C1300,30 1150,110 1000,80 C850,50 700,120 550,60 C400,0 250,90 0,50 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card card-expand-glow" style="padding: 3rem; background: var(--glass-bg);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 3rem;">
+          <div class="slide-snap-left stagger-1" style="border-left: 4px solid var(--primary-dark-green); padding-left: 2rem;">
+            <h3 style="margin-bottom: 1rem; font-size: 1.4rem; color: var(--primary-dark-green);">Key Benefits</h3>
+            <ul style="list-style: disc; margin-left: 1.2rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-dark);">
+              <li>Right drone matched to your needs</li>
+              <li>Reduced setup and launch complexity</li>
+              <li>Expert industrial-grade operational guidance</li>
+              <li>Faster field deployment schedules</li>
+            </ul>
+          </div>
+          <div class="slide-snap-right stagger-2" style="border-left: 4px solid var(--secondary-forest-green); padding-left: 2rem;">
+            <h3 style="margin-bottom: 1rem; font-size: 1.4rem; color: var(--primary-dark-green);">Our Process</h3>
+            <ol style="margin-left: 1.2rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-dark);">
+              <li>Requirement consultation</li>
+              <li>UAV model recommendations</li>
+              <li>Procurement & setup assistance</li>
+              <li>Configuration & safety checks</li>
+              <li>Operational handover & training</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (Primary Section Style) -->
+  <section class="section-primary" style="padding-top: 0;">
+    <!-- Liquid Organic Divider C -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#D6D1A7" d="M0,0 L1440,0 L1440,50 C1280,100 1120,30 960,60 C800,90 640,10 480,80 C320,120 160,40 0,70 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="glass-card text-center card-expand-glow" style="background: var(--glass-bg); border: 2px solid var(--primary-dark-green);">
+        <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+          <defs>
+            <linearGradient id="salesCtaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D530E"/>
+              <stop offset="100%" stop-color="#306D29"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="50" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#salesCtaGrad)">
+            Find Your Perfect Solution
+          </text>
+        </svg>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto 2.5rem; color: var(--text-dark);">Get in touch for a detailed consultation session and find the right drone for your business.</p>
+        <a href="contact.html" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3.5rem; font-size: 1.1rem;">Find the Right Drone Solution</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
+  <footer style="padding-top: 0;">
+    <!-- Liquid Organic Divider E -->
+    <div class="divider-container">
+      <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path fill="#FBF5DD" d="M0,0 L1440,0 L1440,60 C1300,90 1160,30 1020,70 C880,110 740,40 600,80 C460,120 320,50 0,90 Z"></path>
+      </svg>
+    </div>
+    <div class="container" style="padding-top: 3rem;">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/Logo_1.png" alt="Aerominds Logo" class="footer-logo">
-          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying,
-            and consultation services.</p>
+          <img src="assets/images/Logo.png" alt="Aerominds Logo" class="footer-logo">
+          <p>Pioneering the future of agricultural and industrial drone solutions with world-class training, spraying, and consultation services.</p>
         </div>
         <div class="footer-col">
           <h4>Quick Links</h4>
@@ -180,6 +193,8 @@
           <a href="training.html">Drone Training</a>
           <a href="sales.html">Sales & Consultation</a>
           <a href="repair.html">Repairs & AMC</a>
+          <a href="mapping.html">Survey & Mapping</a>
+          <a href="cable.html">Cable Deployment</a>
         </div>
         <div class="footer-col">
           <h4>Contact Us</h4>
