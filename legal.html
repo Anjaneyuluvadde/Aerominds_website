@@ -46,21 +46,25 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <header class="mitra-hero text-center">
-    <div class="container fade-in">
-      <div class="mitra-hero-badge">
-      <span></span> Introducing AeroDroneMitra
-      </div>
-      <h1 class="text-gradient" style="font-size: 3.5rem; max-width: 900px; margin: 0 auto 1.5rem; display: block;">
-        The Smarter Way to Spray and Manage Crops
-      </h1>
-      <p class="subtitle" style="max-width: 750px; margin: 0 auto 2.5rem;">
+  <!-- Page Header -->
+  <header class="page-header fade-in">
+    <div class="container">
+      <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:900px; display:block; margin:0 auto;">
+        <defs>
+          <linearGradient id="mitraHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0D530E"/>
+            <stop offset="100%" stop-color="#306D29"/>
+          </linearGradient>
+        </defs>
+        <text x="50%" y="85" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="64" font-weight="900" stroke="#FBF5DD" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" fill="url(#mitraHeaderGrad)">
+          AeroDroneMitra
+        </text>
+      </svg>
+      <p style="max-width: 750px; margin: 1.5rem auto 2.5rem;">
         Empowering Indian agriculture by connecting farmers with DGCA-certified drone pilots. Book spraying services, monitor jobs, and maximize yields directly from your smartphone.
       </p>
-      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <a href="#estimator" class="btn btn-primary shimmer-sweep">Calculate Spray Cost</a>
-        <a href="https://www.aerodronemitra.com" target="_blank" class="btn btn-secondary" style="background: transparent; border: 2px solid var(--primary-dark-green); color: var(--primary-dark-green) !important;">Visit Official Platform</a>
+      <div style="display: flex; justify-content: center; margin-top: 2rem;">
+        <a href="https://www.aerodronemitra.com" target="_blank" class="btn btn-primary shimmer-sweep" style="padding: 1rem 3rem; font-size: 1.1rem;">Visit Official Platform</a>
       </div>
     </div>
   </header>
@@ -78,10 +82,10 @@
       <!-- Tab Selection -->
       <div class="legal-tabs-main">
         <button class="tab-btn active" data-target="mitra-farmer-tab">
-          <span>🌾</span> Farmer Portal
+          <span></span> AeroDroneMitra (Farmer Platform)
         </button>
         <button class="tab-btn" data-target="mitra-vendor-tab">
-          <span>🚁</span> Vendor Platform
+          <span></span> AeroDroneMitra (Vendor Platform)
         </button>
       </div>
 
@@ -91,7 +95,18 @@
           <!-- Features Column -->
           <div class="features-side slide-snap-left stagger-1">
             <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem;">Empowering Farmers with Technology</h2>
-            <p style="margin-bottom: 2rem;">Book professional agricultural drone pilots in a few taps and protect your crops with ultimate precision.</p>
+            <p style="margin-bottom: 1.5rem;">Book professional agricultural drone pilots in a few taps and protect your crops with ultimate precision.</p>
+            <div style="margin-bottom: 1.8rem;">
+              <a href="https://play.google.com/store/apps/details?id=com.aerodronemitra.app" target="_blank" class="btn btn-primary shimmer-sweep" style="display: inline-flex; align-items: center; gap: 0.8rem; padding: 0.6rem 1.6rem; background: #111111; color: #FFFFFF !important; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; text-decoration: none; width: fit-content;">
+                <svg viewBox="0 0 512 512" width="22" height="22" fill="#FFFFFF" style="display: block;">
+                  <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58 33.1-60.1-60.1L434.3 13c13 6.8 21.7 19.2 21.7 35.3v142c0 16.1-8.7 28.5-21.7 35.3zM385.4 337.8L104.6 499l220.7-220.7 60.1 59.5z"/>
+                </svg>
+                <div style="text-align: left; line-height: 1.1;">
+                  <span style="font-size: 0.6rem; display: block; opacity: 0.8; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase;">GET IT ON</span>
+                  <span style="font-weight: 700; font-size: 0.95rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Google Play</span>
+                </div>
+              </a>
+            </div>
             
             <div class="feature-benefit-card">
               <div class="feature-icon-circle">📲</div>
@@ -257,7 +272,7 @@
                   <div class="app-card-clean" style="background:#FFFFFF; border: 1px solid rgba(13,83,14,0.08); padding:1rem; border-radius:12px; margin-bottom:1.5rem; text-align:left;">
                     <div style="font-size: 0.72rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:0.5rem;">Job Tracking</div>
                     <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; font-weight:700;">
-                      <span style="color:var(--primary-dark-green); animation: pulseRotate 1.5s infinite; display:inline-block;">🛸</span>
+                      <span style="color:var(--primary-dark-green); animation: pulseRotate 1.5s infinite; display:inline-block;"></span>
                       <span>Pilot preparing equipment...</span>
                     </div>
                     <div style="width:100%; height:4px; background:rgba(0,0,0,0.06); border-radius:2px; margin-top:0.8rem; overflow:hidden;">
@@ -280,7 +295,18 @@
           <!-- Features Column -->
           <div class="features-side slide-snap-left stagger-1">
             <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem;">Grow Your Drone Business</h2>
-            <p style="margin-bottom: 2rem;">Receive verified, highly-profitable job allocations near you. Maximize your daily flight revenues seamlessly.</p>
+            <p style="margin-bottom: 1.5rem;">Receive verified, highly-profitable job allocations near you. Maximize your daily flight revenues seamlessly.</p>
+            <div style="margin-bottom: 1.8rem;">
+              <a href="https://play.google.com/store/apps/details?id=com.aerodronemitraprovider.app123" target="_blank" class="btn btn-primary shimmer-sweep" style="display: inline-flex; align-items: center; gap: 0.8rem; padding: 0.6rem 1.6rem; background: #111111; color: #FFFFFF !important; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; text-decoration: none; width: fit-content;">
+                <svg viewBox="0 0 512 512" width="22" height="22" fill="#FFFFFF" style="display: block;">
+                  <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58 33.1-60.1-60.1L434.3 13c13 6.8 21.7 19.2 21.7 35.3v142c0 16.1-8.7 28.5-21.7 35.3zM385.4 337.8L104.6 499l220.7-220.7 60.1 59.5z"/>
+                </svg>
+                <div style="text-align: left; line-height: 1.1;">
+                  <span style="font-size: 0.6rem; display: block; opacity: 0.8; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase;">GET IT ON</span>
+                  <span style="font-weight: 700; font-size: 0.95rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Google Play</span>
+                </div>
+              </a>
+            </div>
             
             <div class="feature-benefit-card">
               <div class="feature-icon-circle">📈</div>
@@ -322,7 +348,7 @@
                 <!-- Screen 1: Dashboard -->
                 <div id="v-screen-home" class="app-screen active">
                   <div class="app-header-main">
-                    <div class="app-logo-small"><span>🛸</span> Vendor Pro</div>
+                    <div class="app-logo-small"><span></span> Vendor Pro</div>
                     <div class="app-user-profile" style="background:var(--secondary-forest-green)">RD</div>
                   </div>
 
@@ -368,14 +394,14 @@
                 <!-- Screen 2: Active Job Details -->
                 <div id="v-screen-job" class="app-screen">
                   <div class="app-header-main">
-                    <div class="app-logo-small"><span>🛸</span> Active Job</div>
+                    <div class="app-logo-small"><span></span> Active Job</div>
                     <div class="app-user-profile" style="background:var(--secondary-forest-green)">RD</div>
                   </div>
 
                   <!-- Simulated Maps visual -->
                   <div class="simulated-map">
                     <div class="simulated-map-line"></div>
-                    <div class="simulated-map-marker marker-start">🛸</div>
+                    <div class="simulated-map-marker marker-start"></div>
                     <div class="simulated-map-marker marker-end">📍</div>
                     <div style="position:absolute; bottom:5px; left:5px; background:rgba(0,0,0,0.6); color:#fff; font-size:0.6rem; padding:0.1rem 0.3rem; border-radius:3px;">GPS Navigation</div>
                   </div>
@@ -437,7 +463,7 @@
                 <div id="v-alert-overlay" class="incoming-job-overlay">
                   <div class="incoming-job-card">
                     <div class="job-alert-header">
-                      <span>🛸</span> Incoming Job Offer!
+                      <span></span> Incoming Job Offer!
                     </div>
                     <p style="font-size:0.75rem; color:var(--text-muted); margin-bottom:0.8rem;">New spraying job matched based on your current location.</p>
                     

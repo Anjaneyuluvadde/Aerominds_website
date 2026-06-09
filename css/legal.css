@@ -1069,3 +1069,9 @@
   margin-bottom: 0.6rem;
   display: block;
 }
+
+.support-item a {
+  display: block;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
